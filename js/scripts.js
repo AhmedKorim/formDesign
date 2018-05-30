@@ -1,8 +1,6 @@
 $('.main-form .form-control').on('focus', function () {
     $(this).parent().addClass('active').siblings().removeClass('active');
 });
-
-
 $('.form-wrapper   .switches .btn').on('click', function () {
         if ($(this).hasClass('-right')) {
 
