@@ -81,7 +81,6 @@ function invaildFeild($el, error) {
             $el.parents('.form-group').tooltip('hide');
         }, 2000
     )
-    console.log(error);
 }
 
 function vaildField($el) {
