@@ -42,7 +42,7 @@ $('.main-form.left input[type="password"]').first().on('blur', function () {
     if ($(this).val() === '') {
         invaildFeild($(this), 'this field cannot be empty');
     } else if ($(this).val().length < 10) {
-        invaildFeild($(this), 'make sure your user name is at least 10 characters long');
+        invaildFeild($(this), 'make sure your password is at least 10 characters long');
     } else if (!/(?=.*[a-z])/.test($(this).val())) {
         invaildFeild($(this), 'password should contain at least one lower case');
     } else if (!/(?=.*[A-Z])/.test($(this).val())) {
