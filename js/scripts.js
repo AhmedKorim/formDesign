@@ -21,7 +21,7 @@ $('.main-form .form-group').each(function (i, el) {
 
     $(el).attr({
         "data-toggle": 'tooltip',
-        "data-placement": "top"
+        "data-placement": "left"
     }).append('<span>')
 });
 //ading blur event for sigh up form
